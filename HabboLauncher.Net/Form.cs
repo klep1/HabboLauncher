@@ -14,7 +14,7 @@ namespace HabboLauncher.Net
         public Form()
         {
             _path = Environment.ExpandEnvironmentVariables(@"%AppData%\HabboLauncher");
-            _site = "https://YOUR-HOTEL-HERE";
+            _site = "http://localhost/";
 
             InitializeComponent();
         }
