@@ -39,7 +39,7 @@ namespace HabboLauncherCpp
 		public: Form(void)
 		{
 			_path = System::Environment::ExpandEnvironmentVariables("%AppData%\\HabboLauncher");
-			_site = gcnew System::String("https://YOUR-HOTEL-HERE");
+			_site = gcnew System::String("http://localhost/");
 
 			InitializeComponent();
 		}
